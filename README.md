@@ -14,7 +14,7 @@
 3. In `#ffffff` LOCATION page you can see informations about villa
      > - See specific location where is villa
 
-4. In CONCIERGE page you can see informations (text - photos) about villa
+4. In `#0969DA` CONCIERGE page you can see informations (text - photos) about villa
 
 5. In GALLERY page you can see photos about villa
 
