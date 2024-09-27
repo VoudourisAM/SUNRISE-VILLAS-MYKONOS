@@ -6,15 +6,16 @@
      > - See another link (MENU) and bars right on web-app
 ![Screenshot 2024-09-27 142637](https://github.com/user-attachments/assets/4b35f860-0637-4f81-a6e1-bf299c5f8de6)
 
+[!TIP]
 2. In THE VILLA page you can see informations about villa
      > - Special effect
      > - See different photos about villa
      > - See Text about villa
 
-3. In `#ffffff` LOCATION page you can see informations about villa
+3. In LOCATION page you can see informations about villa
      > - See specific location where is villa
 
-4. In `#0969DA` CONCIERGE page you can see informations (text - photos) about villa
+4. In CONCIERGE page you can see informations (text - photos) about villa
 
 5. In GALLERY page you can see photos about villa
 
