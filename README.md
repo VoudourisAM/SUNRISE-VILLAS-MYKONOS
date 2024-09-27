@@ -1,28 +1,36 @@
 # SUNRISE VILLAS MYKONOS
 ### Website to rent villa in Mykonos
-###
+##
 
 1. In the first <code style="color : #ffffff">***WELCOME - HOME***</code> page you can see the view of villa
      > - Rent villa (BOOK ONLINE)
      > - See another link (MENU) and bars right on web-app
 ![Screenshot 2024-09-27 142637](https://github.com/user-attachments/assets/4b35f860-0637-4f81-a6e1-bf299c5f8de6)
+##
 
 2. In <code style="color : #ffffff">***THE VILLA***</code> page you can see informations about villa
      > - Special effect
      > - See different photos about villa
      > - See Text about villa
+##
 
 3. In <code style="color : #ffffff">***LOCATION***</code> page you can see informations about villa
      > - See specific location where is villa
+##
 
 4. In <code style="color : #ffffff">***CONCIERGE***</code> page you can see informations (text - photos) about villa
+##
 
 5. In <code style="color : #ffffff">***GALLERY***</code> page you can see photos about villa
+##
 
 6. In <code style="color : #ffffff">***CONTACT***</code> page you can see informations and contact them with who rent villa
+##
 
 7. Create logo (SUNRISE VILLAS MYKONOS)
+##
 
 8. Create CEO for better results in villa
+##
 
 9. Collaboration with RaphaelKarg [https://github.com/RaphaelKarg](https://github.com/RaphaelKarg)
