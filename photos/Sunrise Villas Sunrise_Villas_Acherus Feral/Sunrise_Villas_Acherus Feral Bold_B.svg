@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .09em;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        font-size: 126.52px;
+      }
+
+      .cls-6, .cls-7, .cls-8 {
+        font-family: AcherusFeral-Bold, 'Acherus Feral';
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        letter-spacing: .07em;
+      }
+
+      .cls-3 {
+        letter-spacing: .09em;
+      }
+
+      .cls-9 {
+        font-size: 154.44px;
+        letter-spacing: .09em;
+      }
+
+      .cls-7 {
+        letter-spacing: .09em;
+      }
+
+      .cls-7, .cls-10, .cls-8 {
+        font-size: 155.84px;
+      }
+
+      .cls-11 {
+        letter-spacing: .09em;
+      }
+
+      .cls-4 {
+        letter-spacing: .09em;
+      }
+
+      .cls-12 {
+        letter-spacing: .08em;
+      }
+
+      .cls-5 {
+        letter-spacing: .09em;
+      }
+
+      .cls-13 {
+        letter-spacing: .09em;
+      }
+
+      .cls-8 {
+        letter-spacing: .09em;
+      }
+    </style>
+  </defs>
+  <text class="cls-6" transform="translate(218.79 477.66) scale(1 1.16)"><tspan class="cls-10"><tspan class="cls-13" x="0" y="0">SUNRISE VILL</tspan><tspan class="cls-12" x="1223.34" y="0">A</tspan><tspan class="cls-11" x="1352.38" y="0">S</tspan></tspan><tspan class="cls-9" x="273.4" y="163.39" xml:space="preserve">  </tspan><tspan class="cls-1" x="362.66" y="163.39">MY</tspan><tspan class="cls-2" x="581.16" y="163.39">K</tspan><tspan class="cls-3" x="675.92" y="163.39">ON</tspan><tspan class="cls-5" x="898.09" y="163.39">O</tspan><tspan class="cls-4" x="1011.2" y="163.39">S</tspan><tspan class="cls-9" x="1104.44" y="163.39" xml:space="preserve">  </tspan></text>
+  <text class="cls-7" transform="translate(185.99 680.19) scale(2.28 1.16)"><tspan x="0" y="0">—</tspan></text>
+  <text class="cls-8" transform="translate(1362 680.19) scale(2.22 1.16)"><tspan x="0" y="0">—</tspan></text>
+</svg>

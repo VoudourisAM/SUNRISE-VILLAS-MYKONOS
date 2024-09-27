@@ -1,0 +1,532 @@
+/*HTML*/
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Villas to rent in Mykonos | Sunrise Villa</title>
+        <!-- Links -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" href="Small Icon/icon.png" type="image/png" sizes="16x16">
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+        <!-- Public Libraries -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Website Script -->
+        <script defer src="script.js"></script>
+    </head>
+    <body>
+        <!-- Main Section -->
+        <main>
+            <!-- Header menu 1-->
+            <header class="header-menu-1" id="menu-header-ID">
+                <nav>
+                    <ul>
+                        <li><a href="index.html" id="homeID"></a></li>
+                        <li><a href="villa.html" id="villaID"></a></li>
+                        <li><a href="location.html" id="locationID"></a></li>
+                        <li><a href="concierge.html" id="conciergeID"></a></li>
+                        <li><a href="gallery.html" class="here-menu-1" id="galleryID"></a></li>
+                        <li><a href="#contact-section" id="contactID"></a></li>
+                    </ul>
+                </nav>
+            </header>
+            <!-- Header Section -->
+            <div class="header">
+                <!-- Button Menu Section -->
+                <div class="button-section">
+                    <!-- Button -->
+                    <div class="button-nav-menu" onclick="activeNav(this)" >
+                        <span class="line l1"></span>
+                        <span class="line l2"></span>
+                        <span class="line l3"></span>
+                    </div>
+                    <!--Text -->
+                    <p class="text-display-menu" id="textMenu">Menu</p>
+                </div>
+                <!-- Image Logo -->
+                <div class="img-container">
+                    <img src="photos/logo2.png" alt="Logo Image" id="logo-image">
+                </div>
+                <!-- Booking Icon for phone -->
+                <a href="https://www.booking.com/hotel/gr/sunrise-villa-mykonos.en-gb.html?label=gen173nr-1BCAsoXEIVc3VucmlzZS12aWxsYS1teWtvbm9zSDNYBGhQiAEBmAEJuAEYyAEN2AEB6AEBiAIBqAIEuAKk3aCzBsACAdICJDBhYmE4MmU3LWIyYmEtNDA1Yy1hOWQ1LTE1MmIxMmUyNzY4NdgCBeACAQ&sid=8473cb690b06fdbbc14ac391d26ffb37&dist=0&keep_landing=1&sb_price_type=total&type=total" class="book-online-link-phone">
+                    <img src="photos/online-booking.png" alt="Online Booking Icon" title="Click for your booking!">
+                </a>
+                <!-- Booking Icon for tablet-pc -->
+                <div class="button-book-online">
+                    <a href="https://www.booking.com/hotel/gr/sunrise-villa-mykonos.en-gb.html?label=gen173nr-1BCAsoXEIVc3VucmlzZS12aWxsYS1teWtvbm9zSDNYBGhQiAEBmAEJuAEYyAEN2AEB6AEBiAIBqAIEuAKk3aCzBsACAdICJDBhYmE4MmU3LWIyYmEtNDA1Yy1hOWQ1LTE1MmIxMmUyNzY4NdgCBeACAQ&sid=8473cb690b06fdbbc14ac391d26ffb37&dist=0&keep_landing=1&sb_price_type=total&type=total" class="book-online-link-tablet-pc" title="Click for your booking!" id="bookOnline">
+                        Book Online
+                    </a>
+                </div>
+            </div>
+            <!-- Gallery Container -->
+            <div class="gallery-subpage">
+                <!-- Image 1 Slider -->
+                <div class="current-slider img-1" id="img-1">
+                    <div class="numbertext">1 / 28</div> <!-- Number of Image-->
+                    <a href="#img-34" class="prev">❮</a> <!-- Previous Button -->
+                    <a href="#img-2" class="next">❯</a> <!-- Next Button-->
+                    <h1 class="gallery-title">Photo Gallery</h1>
+                    <div class="divider"></div>
+                </div>
+                <!-- Image 2 Slider -->
+                <div class="current-slider img-2" id="img-2">
+                    <div class="numbertext">2 / 28</div> <!-- Number of Image-->
+                    <a href="#img-1" class="prev">❮</a> <!-- Previous Button -->
+                    <a href="#img-4" class="next">❯</a> <!-- Next Button-->
+                </div>
+                <!-- Image 3 Slider 
+                    <div class="current-slider img-3" id="img-3">
+                        <div class="numbertext">3 / 34</div>
+                        <a href="#img-2" class="prev">❮</a>
+                        <a href="#img-4" class="next">❯</a>
+                    </div>
+                -->
+                <!-- Image 4 Slider -->
+                <div class="current-slider img-4" id="img-4">
+                    <div class="numbertext">3 / 28</div> <!-- Number of Image-->
+                    <a href="#img-2" class="prev">❮</a> <!-- Previous Button -->
+                    <a href="#img-5" class="next">❯</a> <!-- Next Button-->
+                </div>
+                <!-- Image 5 Slider -->
+                <div class="current-slider img-5" id="img-5">
+                    <div class="numbertext">4 / 28</div> <!-- Number of Image-->
+                    <a href="#img-4" class="prev">❮</a> <!-- Previous Button -->
+                    <a href="#img-6" class="next">❯</a> <!-- Next Button-->
+                </div>
+                <!-- Image 6 Slider -->
+                <div class="current-slider img-6" id="img-6">
+                    <div class="numbertext">5 / 28</div> <!-- Number of Image-->
+                    <a href="#img-5" class="prev">❮</a> <!-- Previous Button -->
+                    <a href="#img-7" class="next">❯</a> <!-- Next Button-->
+                </div>
+                <!-- Image 7 Slider -->
+                <div class="current-slider img-7" id="img-7">
+                    <div class="numbertext">6 / 28</div> <!-- Number of Image-->
+                    <a href="#img-6" class="prev">❮</a> <!-- Previous Button -->
+                    <a href="#img-8" class="next">❯</a> <!-- Next Button-->
+                </div>
+                <!-- Image 8 Slider -->
+                <div class="current-slider img-8" id="img-8">
+                    <div class="numbertext">7 / 28</div> <!-- Number of Image-->
+                    <a href="#img-7" class="prev">❮</a> <!-- Previous Button -->
+                    <a href="#img-9" class="next">❯</a> <!-- Next Button-->
+                </div>
+                <!-- Image 9 Slider -->
+                <div class="current-slider img-9" id="img-9">
+                    <div class="numbertext">8 / 28</div> <!-- Number of Image-->
+                    <a href="#img-8" class="prev">❮</a> <!-- Previous Button -->
+                    <a href="#img-10" class="next">❯</a> <!-- Next Button-->
+                </div>
+                <!-- Image 10 Slider -->
+                <div class="current-slider img-10" id="img-10">
+                    <div class="numbertext">9 / 28</div> <!-- Number of Image-->
+                    <a href="#img-9" class="prev">❮</a> <!-- Previous Button -->
+                    <a href="#img-11" class="next">❯</a> <!-- Next Button-->
+                </div>
+                <!-- Image 11 Slider -->
+                <div class="current-slider img-11" id="img-11">
+                    <div class="numbertext">10 / 28</div> <!-- Number of Image-->
+                    <a href="#img-10" class="prev">❮</a> <!-- Previous Button -->
+                    <a href="#img-12" class="next">❯</a> <!-- Next Button-->
+                </div>
+                <!-- Image 12 Slider -->
+                <div class="current-slider img-12" id="img-12">
+                    <div class="numbertext">11 / 28</div> <!-- Number of Image-->
+                    <a href="#img-11" class="prev">❮</a> <!-- Previous Button -->
+                    <a href="#img-13" class="next">❯</a> <!-- Next Button-->
+                </div>
+                <!-- Image 13 Slider -->
+                <div class="current-slider img-13" id="img-13">
+                    <div class="numbertext">12 / 28</div> <!-- Number of Image-->
+                    <a href="#img-12" class="prev">❮</a> <!-- Previous Button -->
+                    <a href="#img-14" class="next">❯</a> <!-- Next Button-->
+                </div>
+                <!-- Image 14 Slider -->
+                <div class="current-slider img-14" id="img-14">
+                    <div class="numbertext">13 / 28</div> <!-- Number of Image-->
+                    <a href="#img-13" class="prev">❮</a> <!-- Previous Button -->
+                    <a href="#img-15" class="next">❯</a> <!-- Next Button-->
+                </div>
+                <!-- Image 15 Slider -->
+                <div class="current-slider img-15" id="img-15">
+                    <div class="numbertext">14 / 28</div> <!-- Number of Image-->
+                    <a href="#img-14" class="prev">❮</a> <!-- Previous Button -->
+                    <a href="#img-16" class="next">❯</a> <!-- Next Button-->
+                </div>
+                <!-- Image 16 Slider -->
+                <div class="current-slider img-16" id="img-16">
+                    <div class="numbertext">15 / 28</div> <!-- Number of Image-->
+                    <a href="#img-15" class="prev">❮</a> <!-- Previous Button -->
+                    <a href="#img-17" class="next">❯</a> <!-- Next Button-->
+                </div>
+                <!-- Image 17 Slider -->
+                <div class="current-slider img-17" id="img-17">
+                    <div class="numbertext">16 / 28</div> <!-- Number of Image-->
+                    <a href="#img-16" class="prev">❮</a> <!-- Previous Button -->
+                    <a href="#img-18" class="next">❯</a> <!-- Next Button-->
+                </div>
+                <!-- Image 18 Slider -->
+                <div class="current-slider img-18" id="img-18">
+                    <div class="numbertext">17 / 28</div> <!-- Number of Image-->
+                    <a href="#img-17" class="prev">❮</a> <!-- Previous Button -->
+                    <a href="#img-20" class="next">❯</a> <!-- Next Button-->
+                </div>
+                <!-- Image 19 Slider 
+                    <div class="current-slider img-19" id="img-19">
+                        <div class="numbertext">19 / 34</div> 
+                        <a href="#img-18" class="prev">❮</a> 
+                        <a href="#img-20" class="next">❯</a> 
+                    </div>
+                -->
+                <!-- Image 20 Slider -->
+                <div class="current-slider img-20" id="img-20">
+                    <div class="numbertext">18 / 28</div> <!-- Number of Image-->
+                    <a href="#img-18" class="prev">❮</a> <!-- Previous Button -->
+                    <a href="#img-22" class="next">❯</a> <!-- Next Button-->
+                </div>
+                <!-- Image 21 Slider 
+                    <div class="current-slider img-21" id="img-21">
+                        <div class="numbertext">19 / 34</div> >
+                        <a href="#img-20" class="prev">❮</a> 
+                        <a href="#img-22" class="next">❯</a> 
+                    </div>
+                -->
+                <!-- Image 22 Slider -->
+                <div class="current-slider img-22" id="img-22">
+                    <div class="numbertext">19 / 28</div> <!-- Number of Image-->
+                    <a href="#img-20" class="prev">❮</a> <!-- Previous Button -->
+                    <a href="#img-23" class="next">❯</a> <!-- Next Button-->
+                </div>
+                <!-- Image 23 Slider -->
+                <div class="current-slider img-23" id="img-23">
+                    <div class="numbertext">20 / 28</div> <!-- Number of Image-->
+                    <a href="#img-22" class="prev">❮</a> <!-- Previous Button -->
+                    <a href="#img-24" class="next">❯</a> <!-- Next Button-->
+                </div>
+                <!-- Image 24 Slider -->
+                <div class="current-slider img-24"  id="img-24">
+                    <div class="numbertext">21 / 28</div> <!-- Number of Image-->
+                    <a href="#img-23" class="prev">❮</a> <!-- Previous Button -->
+                    <a href="#img-26" class="next">❯</a> <!-- Next Button-->
+                </div>
+                <!-- Image 25 Slider 
+                    <div class="current-slider img-25" id="img-25">
+                        <div class="numbertext">25 / 34</div> 
+                        <a href="#img-24" class="prev">❮</a> 
+                        <a href="#img-26" class="next">❯</a> 
+                    </div>
+                -->
+                <!-- Image 26 Slider -->
+                <div class="current-slider img-26" id="img-26">
+                    <div class="numbertext">22 / 28</div> <!-- Number of Image-->
+                    <a href="#img-24" class="prev">❮</a> <!-- Previous Button -->
+                    <a href="#img-27" class="next">❯</a> <!-- Next Button-->
+                </div>
+                <!-- Image 27 Slider -->
+                <div class="current-slider img-27" id="img-27">
+                    <div class="numbertext">23 / 28</div> <!-- Number of Image-->
+                    <a href="#img-26" class="prev">❮</a> <!-- Previous Button -->
+                    <a href="#img-28" class="next">❯</a> <!-- Next Button-->
+                </div>
+                <!-- Image 28 Slider -->
+                <div class="current-slider img-28" id="img-28">
+                    <div class="numbertext">24 / 28</div> <!-- Number of Image-->
+                    <a href="#img-27" class="prev">❮</a> <!-- Previous Button -->
+                    <a href="#img-29" class="next">❯</a> <!-- Next Button-->
+                </div>
+                <!-- Image 29 Slider -->
+                <div class="current-slider img-29" id="img-29">
+                    <div class="numbertext">25 / 28</div> <!-- Number of Image-->
+                    <a href="#img-28" class="prev">❮</a> <!-- Previous Button -->
+                    <a href="#img-30" class="next">❯</a> <!-- Next Button-->
+                </div>
+                <!-- Image 30 Slider -->
+                <div class="current-slider img-30" id="img-30">
+                    <div class="numbertext">26 / 28</div> <!-- Number of Image-->
+                    <a href="#img-29" class="prev">❮</a> <!-- Previous Button -->
+                    <a href="#img-32" class="next">❯</a> <!-- Next Button-->
+                </div>
+                <!-- Image 31 Slider 
+                    <div class="current-slider img-31" id="img-31">
+                        <div class="numbertext">31 / 34</div> 
+                        <a href="#img-30" class="prev">❮</a>
+                        <a href="#img-32" class="next">❯</a> 
+                    </div>
+                -->
+                <!-- Image 32 Slider -->
+                <div class="current-slider img-32" id="img-32">
+                    <div class="numbertext">27 / 28</div> <!-- Number of Image-->
+                    <a href="#img-30" class="prev">❮</a> <!-- Previous Button -->
+                    <a href="#img-34" class="next">❯</a> <!-- Next Button-->
+                </div>
+                <!-- Image 33 Slider 
+                    <div class="current-slider img-33" id="img-33">
+                        <div class="numbertext">33 / 34</div> 
+                        <a href="#img-32" class="prev">❮</a> 
+                        <a href="#img-34" class="next">❯</a> 
+                    </div>
+                -->
+                <!-- Image 34 Slider -->
+                <div class="current-slider img-34" id="img-34">
+                    <div class="numbertext">28 / 28</div> <!-- Number of Image-->
+                    <a href="#img-32" class="prev">❮</a> <!-- Previous Button -->
+                    <a href="#img-1" class="next">❯</a> <!-- Next Button-->
+                </div>
+                </section>
+            </div>
+        </main>
+    </body>
+</html>
+
+
+/*CSS*/
+main .gallery-subpage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.gallery-subpage .current-slider{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1 0 100%;
+
+    position: relative;
+}
+.current-slider .gallery-title {
+    position: absolute;
+    top: calc(50% - 30px); /*(60px default height) 30px half of height of this container*/
+    left: calc(50% - 126.17px); /*(252.34 default width) 126.17px half of width of this container*/
+    color: #fff;
+    font-family: Horizon_Type-AcherusFeral-Light;
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 40px;
+    padding-bottom: 20px;
+}
+.current-slider .gallery-title::after {
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 30px);
+    content: "";
+    margin: 10px auto;
+    width: 60px;
+    height: 3px; 
+    background-color: #95997d;
+}
+.current-slider .numbertext {
+    position: absolute;
+    bottom: 10px;
+    left: calc(50% - 35px);
+    width: 70px;
+    text-align: center;
+
+    color: #fff;
+    font-size: 16px;
+    font-family: Horizon_Type-AcherusFeral-Light;
+    font-style: italic;
+
+}
+.current-slider .prev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    left: 15px;
+    top: calc(50% - 30px);
+    color: #fff;
+    font-size: 20px;
+    
+    text-decoration: none;
+
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.current-slider .prev:hover {
+    transition: 0.5s;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000;
+}
+.current-slider .next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    right: 15px;
+    top: calc(50% - 30px);
+    color: #fff;
+    font-size: 20px;
+    
+    text-decoration: none;
+
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.current-slider .next:hover{
+    transition: 0.5s;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000;
+}
+.gallery-subpage .img-1 {
+    background-image: url(Sunrise_Villas_V/1.jpg);
+}
+.gallery-subpage .img-2 {
+    background-image: url(Sunrise_Villas_V/2.jpg);
+}
+/*
+.gallery-subpage .img-3 {
+    background-image: url(Sunrise_Villas_V/3.jpg);
+}
+*/
+.gallery-subpage .img-4 {
+    background-image: url(Sunrise_Villas_V/4.jpg);
+}
+.gallery-subpage .img-5 {
+    background-image: url(Sunrise_Villas_V/5.jpg);
+}
+.gallery-subpage .img-6 {
+    background-image: url(Sunrise_Villas_V/6.jpg);
+}
+.gallery-subpage .img-7 {
+    background-image: url(Sunrise_Villas_V/7.jpg);
+}
+.gallery-subpage .img-8 {
+    background-image: url(Sunrise_Villas_V/8.jpg);
+}
+.gallery-subpage .img-9 {
+    background-image: url(Sunrise_Villas_V/9.jpg);
+}
+.gallery-subpage .img-10 {
+    background-image: url(Sunrise_Villas_V/10.jpg);
+}
+.gallery-subpage .img-11 {
+    background-image: url(Sunrise_Villas_V/11.jpg);
+}
+.gallery-subpage .img-12 {
+    background-image: url(Sunrise_Villas_V/12.jpg);
+}
+.gallery-subpage .img-13 {
+    background-image: url(Sunrise_Villas_V/13.jpg);
+}
+.gallery-subpage .img-14 {
+    background-image: url(Sunrise_Villas_V/14.jpg);
+}
+.gallery-subpage .img-15 {
+    background-image: url(Sunrise_Villas_V/15.jpg);
+}
+.gallery-subpage .img-16 {
+    background-image: url(Sunrise_Villas_V/16.jpg);
+}
+.gallery-subpage .img-17 {
+    background-image: url(Sunrise_Villas_V/17.jpg);
+}
+.gallery-subpage .img-18 {
+    background-image: url(Sunrise_Villas_V/18.jpg);
+}
+/*
+.gallery-subpage .img-19 {
+    background-image: url(Sunrise_Villas_V/19.jpg);
+}
+*/
+.gallery-subpage .img-20 {
+    background-image: url(Sunrise_Villas_V/20.jpg);
+}
+/*
+.gallery-subpage .img-21 {
+    background-image: url(Sunrise_Villas_V/21.jpg);
+}
+*/
+.gallery-subpage .img-22 {
+    background-image: url(Sunrise_Villas_V/22.jpg);
+}
+.gallery-subpage .img-23 {
+    background-image: url(Sunrise_Villas_V/23.jpg);
+}
+.gallery-subpage .img-24 {
+    background-image: url(Sunrise_Villas_V/24.jpg);
+}
+/*
+.gallery-subpage .img-25 {
+    background-image: url(Sunrise_Villas_V/25.jpg);
+}
+*/
+.gallery-subpage .img-26 {
+    background-image: url(Sunrise_Villas_V/26.jpg);
+}
+.gallery-subpage .img-27 {
+    background-image: url(Sunrise_Villas_V/27.jpg);
+}
+.gallery-subpage .img-28 {
+    background-image: url(Sunrise_Villas_V/28.jpg);
+}
+.gallery-subpage .img-29{
+    background-image: url(Sunrise_Villas_V/29.jpg);
+}
+.gallery-subpage .img-30{
+    background-image: url(Sunrise_Villas_V/30.jpg);
+}
+/*
+.gallery-subpage .img-31 {
+    background-image: url(Sunrise_Villas_V/31.jpg);
+}
+*/
+.gallery-subpage .img-32 {
+    background-image: url(Sunrise_Villas_V/32.jpg);
+}
+/*
+.gallery-subpage .img-33 {
+    background-image: url(Sunrise_Villas_V/33.jpg);
+}
+*/
+.gallery-subpage .img-34 {
+    background-image: url(Sunrise_Villas_V/34.jpg);
+}
+
+@media only screen and (min-width: 768px) { /*FOR TABLETS AND PC */
+
+    .current-slider .numbertext {
+        font-size: 16px;
+    }
+    .current-slider .prev {
+        width: 80px;
+        height: 80px;
+        top: calc(50% - 40px);
+        left: 150px;
+    }
+    .current-slider .next {
+        right: 150px;
+        width: 80px;
+        height: 80px;
+        top: calc(50% - 40px);
+    }
+
+    .current-slider .gallery-title {
+        top: calc(50% - 35px); /*(70px default height) 35px half of height of this container*/
+        left: calc(50% - 189.25px); /*(378.5 default width) 189.25px half of width of this container*/
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .current-slider .gallery-title::after {
+        position: absolute;
+        bottom: 0;
+        left: calc(50% - 30px);
+        content: "";
+        margin: 10px auto;
+        width: 60px;
+        height: 3px; 
+        background-color: #95997d;
+    }
+}
