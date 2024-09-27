@@ -1,5 +1,5 @@
 # SUNRISE VILLAS MYKONOS
-### Web-App to rent villa in Mykonos
+### Website to rent villa in Mykonos
 
 1. In the first <code style="color : #ffffff">***WELCOME - HOME***</code> page you can see the view of villa
      > - Rent villa (BOOK ONLINE)
