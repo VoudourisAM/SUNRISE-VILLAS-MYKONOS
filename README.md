@@ -6,19 +6,19 @@
      > - See another link (MENU) and bars right on web-app
 ![Screenshot 2024-09-27 142637](https://github.com/user-attachments/assets/4b35f860-0637-4f81-a6e1-bf299c5f8de6)
 
-2. In ***THE VILLA*** page you can see informations about villa
+2. In <code style="color : #ffffff">***THE VILLA*** page you can see informations about villa
      > - Special effect
      > - See different photos about villa
      > - See Text about villa
 
-3. In ***LOCATION*** page you can see informations about villa
+3. In <code style="color : #ffffff">***LOCATION***</code> page you can see informations about villa
      > - See specific location where is villa
 
-4. In ***CONCIERGE*** page you can see informations (text - photos) about villa
+4. In <code style="color : #ffffff">***CONCIERGE***</code> page you can see informations (text - photos) about villa
 
-5. In ***GALLERY*** page you can see photos about villa
+5. In <code style="color : #ffffff">***GALLERY***</code> page you can see photos about villa
 
-6. In ***CONTACT*** page you can see informations and contact them with who rent villa
+6. In <code style="color : #ffffff">***CONTACT***</code> page you can see informations and contact them with who rent villa
 
 7. Create logo (SUNRISE VILLAS MYKONOS)
 
