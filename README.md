@@ -6,7 +6,7 @@
      > - See another link (MENU) and bars right on web-app
 ![Screenshot 2024-09-27 142637](https://github.com/user-attachments/assets/4b35f860-0637-4f81-a6e1-bf299c5f8de6)
 
-2. In '#000000' THE VILLA page you can see informations about villa
+2. In THE VILLA page you can see informations about villa
      > - Special effect
      > - See different photos about villa
      > - See Text about villa
