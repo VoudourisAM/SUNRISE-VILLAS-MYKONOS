@@ -370,6 +370,7 @@ textarea {
 /*************************************** BEGIN CSS ***************************************/
 
 *{
+    scroll-snap-type: y mandatory;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
@@ -386,6 +387,10 @@ body::-webkit-scrollbar {
 @font-face {
     font-family: Horizon_Type-AcherusFeral-Light;
     src: url(fonts/horizon-type-acherusferal/Horizon_Type-AcherusFeral-Light.otf);
+}
+
+.scroll-snapping{
+    scroll-snap-align: start;
 }
 
 main {
@@ -2257,6 +2262,7 @@ main .gallery-subpage{
 }
 @media only screen and (min-width: 1024px) { /*FOR TABLETS AND PC */
     main .gallery-subpage{
+        overflow-x: hidden;
         flex-direction: row;
     }
     .gallery-subpage .current-slider{

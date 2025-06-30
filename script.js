@@ -244,7 +244,6 @@ function paragraphVilla() {
 
 }
 
-
 function clearParagraphs() {
   const paragraphs = document.getElementById("textarea_P_ID").querySelectorAll("p");
   paragraphs.forEach(paragraph => {
@@ -298,5 +297,4 @@ function linkConcierge() {
     document.getElementById("concierge-section").style.transition = "1s";
   },700)
 }
-
 
